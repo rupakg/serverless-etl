@@ -1,0 +1,13 @@
+{
+  "name": "serverless-etl",
+  "version": "1.0.0",
+  "description": "ETL job for dumping metrics data for a sample dataset.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rupak Ganguly",
+  "license": "MIT",
+  "devDependencies": {
+    "serverless-python-requirements": "^3.3.0"
+  }
+}

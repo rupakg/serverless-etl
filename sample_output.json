@@ -1,0 +1,52 @@
+[{
+    '24h_volume_usd': 8529300000.0,
+    'last_updated': datetime.datetime(1970, 1, 18, 13, 55, 9, 567000),
+    'name': 'Bitcoin',
+    'percent_change_1h': 2.01,
+    'price_usd': 11077.9,
+    'rank': 1,
+    'symbol': 'BTC',
+    'total_supply': 16870925.0
+  },
+
+  {
+    '24h_volume_usd': 2510770000.0,
+    'last_updated': datetime.datetime(1970, 1, 18, 13, 55, 9, 551000),
+    'name': 'Ethereum',
+    'percent_change_1h': 0.7,
+    'price_usd': 975.651,
+    'rank': 2,
+    'symbol': 'ETH',
+    'total_supply': 97679773.0
+  },
+  {
+    '24h_volume_usd': 1172320000.0,
+    'last_updated': datetime.datetime(1970, 1, 18, 13, 55, 9, 541000),
+    'name': 'Ripple',
+    'percent_change_1h': 0.96,
+    'price_usd': 1.21,
+    'rank': 3,
+    'symbol': 'XRP',
+    'total_supply': 99992725510.0
+  },
+  {
+    '24h_volume_usd': 663760000.0,
+    'last_updated': datetime.datetime(1970, 1, 18, 13, 55, 9, 553000),
+    'name': 'Bitcoin Cash',
+    'percent_change_1h': 0.78,
+    'price_usd': 1547.14,
+    'rank': 4,
+    'symbol': 'BCH',
+    'total_supply': 16973175.0
+  },
+  {
+    '24h_volume_usd': 865458000.0,
+    'last_updated': datetime.datetime(1970, 1, 18, 13, 55, 9, 542000),
+    'name': 'Litecoin',
+    'percent_change_1h': 0.19,
+    'price_usd': 230.273,
+    'rank': 5,
+    'symbol': 'LTC',
+    'total_supply': 55263408.0
+  }
+]

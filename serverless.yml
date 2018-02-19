@@ -1,0 +1,33 @@
+service: sample-etl
+
+plugins:
+  - serverless-python-requirements
+
+custom:
+  pythonRequirements:
+    dockerizePip: non-linux
+  dbConn: ${ssm:/ETL/RedshiftConn~true}
+
+provider:
+  name: aws
+  runtime: python3.6
+  region: us-west-2
+  timeout: 300
+  environment:
+    DB_CONN: ${self:custom.dbConn}
+  vpc:
+    securityGroupIds:
+      - sg-xxxxxxx
+    subnetIds:
+      - subnet-xxxxxxx
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - "ec2:CreateNetworkInterface"
+      Resource: "*"
+
+functions:
+  etlSample:
+    handler: handler.main
+    events:
+      - schedule: rate(1 hour)
