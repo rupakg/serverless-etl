@@ -1,6 +1,6 @@
 # Sample ETL Data Job
 
-This is a companion project for the post [ETL Job Processing with Serverless and AWS Redshift]().
+This is a companion project for the post [ETL Job Processing with Serverless and AWS Redshift](https://serverless.com/blog/etl-job-processing-with-serverless-lambda-and-redshift/).
 
 ## Pre-requisites
 
